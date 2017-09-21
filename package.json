@@ -1,0 +1,47 @@
+{
+  "name": "gulpstarter",
+  "version": "1.0.0",
+  "description": "simple project with gulp examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewsPortfolio/gulpStarter.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Andrew Dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewsPortfolio/gulpStarter/issues"
+  },
+  "homepage": "https://github.com/AndrewsPortfolio/gulpStarter#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-concat-js": "^0.1.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-order": "^1.1.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5",
+    "pump": "^1.0.2"
+  }
+}
