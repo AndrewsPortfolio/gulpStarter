@@ -1,0 +1,24 @@
+{
+  "dist" : {
+    "loc" : "./dist",
+    "pkgs" : "packages",
+    "src" : "src"
+  },
+  "src" : {
+    "loc" : "./src",
+    "js":[
+      "./src/js/main.js"
+    ],
+    "css":["./src/scss/*.scss"]
+  },
+  "pkgs" :{
+    "js" : [
+      "./node_modules/jquery/dist/jquery.min.js",
+      "./node_modules/popper.js/dist/umd/popper.min.js",
+      "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ],
+    "css": [
+      "./node_modules/bootstrap/scss/**/*.scss"
+    ]
+  }
+}
